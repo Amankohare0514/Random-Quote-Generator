@@ -19,7 +19,7 @@ button{
     position: relative;
     transition: 0.5s;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgb(51, 53, 53);
   }
 button:after {
