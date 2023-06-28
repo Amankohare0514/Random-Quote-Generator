@@ -25,18 +25,20 @@ export default function App() {
   return (
     <div>
       <main>
-        <h1>Random Quote Generator</h1>
         <section>
           <p>
             <span>“</span>
             {quote?.text}
           </p>
-          <i>- {quote?.author}</i>
-          <br/> <br/>
-          <button  onClick={getNewQuote}>New Quote</button>
-          <br/>
-          <br/>
-        <br/>
+          <i>Author- {quote?.author}</i>
+          <br /> <br /><br/>
+          <button onClick={getNewQuote}>New Quote</button>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </section>
       </main>
     </div>
