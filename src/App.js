@@ -27,10 +27,10 @@ export default function App() {
       <main>
         <h1>Random Quote Generator</h1>
         <section>
-          <h3>
+          <p>
             <span>“</span>
             {quote?.text}
-          </h3>
+          </p>
           <i>- {quote?.author}</i>
           <br/> <br/>
           <button  onClick={getNewQuote}>New Quote</button>

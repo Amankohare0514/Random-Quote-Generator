@@ -40,8 +40,8 @@ button:after {
     opacity: 1;
     right: 10px;
   }
-h3{
-    font-size: 35px;
+p{
+    font-size: 32px;
     text-shadow: 1px 1px 1px black;
 }
 i{
