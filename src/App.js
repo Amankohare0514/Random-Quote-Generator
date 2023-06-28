@@ -34,6 +34,9 @@ export default function App() {
           <i>- {quote?.author}</i>
           <br/> <br/>
           <button  onClick={getNewQuote}>New Quote</button>
+          <br/>
+          <br/>
+        <br/>
         </section>
       </main>
     </div>
